@@ -6,6 +6,12 @@ export default defineConfig({
   model: {},
   initialState: {},
   request: {},
+  locale: {
+    default: 'zh-CN',
+    antd: true,
+    baseNavigator: true,
+    useLocalStorage: true,
+  },
   layout: {
     title: '@umijs/max',
   },
@@ -16,17 +22,17 @@ export default defineConfig({
       redirect: '/home',
     },
     {
-      name: '首页',
+      name: 'menu.home',
       path: '/home',
       component: './Home',
     },
     {
-      name: '权限演示',
+      name: 'menu.access',
       path: '/access',
       component: './Access',
     },
     {
-      name: ' CRUD 示例',
+      name: 'menu.table',
       path: '/table',
       component: './Table',
     },
