@@ -27,6 +27,9 @@ importers:
       '@types/react-dom':
         specifier: ^18.0.11
         version: 18.3.7(@types/react@18.3.31)
+      eslint-plugin-local-rules:
+        specifier: ^3.0.2
+        version: 3.0.2
       husky:
         specifier: ^9
         version: 9.1.7
@@ -3081,6 +3084,9 @@ packages:
         optional: true
       jest:
         optional: true
+
+  eslint-plugin-local-rules@3.0.2:
+    resolution: {integrity: sha512-IWME7GIYHXogTkFsToLdBCQVJ0U4kbSuVyDT+nKoR4UgtnVrrVeNWuAZkdEu1nxkvi9nsPccGehEEF6dgA28IQ==, tarball: https://registry.npmjs.org/eslint-plugin-local-rules/-/eslint-plugin-local-rules-3.0.2.tgz}
 
   eslint-plugin-react-hooks@4.6.0:
     resolution: {integrity: sha512-oFc7Itz9Qxh2x4gNHStv3BqJq54ExXmfC+a1NjAta66IAN87Wu0R/QArgIS9qKzX3dXKPI9H5crl9QchNMY9+g==, tarball: https://registry.npmjs.org/eslint-plugin-react-hooks/-/eslint-plugin-react-hooks-4.6.0.tgz}
@@ -8492,7 +8498,7 @@ snapshots:
 
   '@types/history@5.0.0':
     dependencies:
-      history: 4.10.1
+      history: 5.3.0
 
   '@types/hoist-non-react-statics@3.3.7(@types/react@18.3.31)':
     dependencies:
@@ -8544,7 +8550,7 @@ snapshots:
       '@types/history': 4.7.11
       '@types/react': 18.3.31
       '@types/react-router': 5.1.20
-      redux: 3.7.2
+      redux: 4.2.1
 
   '@types/react-router@5.1.20':
     dependencies:
@@ -10753,6 +10759,8 @@ snapshots:
     transitivePeerDependencies:
       - supports-color
       - typescript
+
+  eslint-plugin-local-rules@3.0.2: {}
 
   eslint-plugin-react-hooks@4.6.0(eslint@8.35.0(supports-color@8.1.1)):
     dependencies:
